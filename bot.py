@@ -1,8 +1,3 @@
-# ©️ LISA-KOREA | @LISA_FAN_LK | NT_BOT_CHANNEL | @NT_BOTS_SUPPORT | LISA-KOREA/UPLOADER-BOT-V4
-
-# [⚠️ Do not change this repo link ⚠️] :- https://github.com/LISA-KOREA/UPLOADER-BOT-V4
-
-
 import os
 from plugins.config import Config
 from pyrogram import Client
@@ -17,7 +12,7 @@ if __name__ == "__main__" :
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     upload_boost=True,
-    sleep_threshold=300,
+    sleep_threshold=200,
     plugins=plugins)
-    print("🎊 I AM ALIVE 🎊  • Support @NT_BOTS_SUPPORT")
+    print("I am Working..!!")
     Client.run()
